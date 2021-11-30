@@ -22,7 +22,7 @@ function installAll() {
   npx node ./src/index.js
 }
 
-cd nitro-sniper
+cd Nitro-sniper-Death
 if [ $(compareVersions $PACKAGE_VERSION) -lt $(compareVersions $LATEST_VERSION) ] || [ ! -d "node_modules" ]; then
   installAll
 else
